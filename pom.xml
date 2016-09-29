@@ -81,6 +81,12 @@
       <artifactId>postgresql</artifactId>
       <version>9.4-1203-jdbc42</version>
     </dependency>
+
+    <dependency>
+      <groupId>io.linx.prometheus</groupId>
+      <artifactId>spring-boot-prometheus-exporter</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <properties>
@@ -166,6 +172,11 @@
     <repository>
       <id>spring-milestone</id>
       <url>https://repo.spring.io/libs-release</url>
+    </repository>
+    <repository>
+      <id>in-project</id>
+      <name>In Project Repo</name>
+      <url>file://${project.basedir}/libs</url>
     </repository>
   </repositories>
 
