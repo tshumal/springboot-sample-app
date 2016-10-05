@@ -1,4 +1,9 @@
-spring:
-  cloud:
+cloud:
     consul:
-      host: consul-masspay-dev.bison
+      enabled: true
+      discovery:
+        instanceId: ${spring.application.name}
+        preferIpAddress: true
+      host: consul
+      config:
+        enabled: false
