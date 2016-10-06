@@ -75,7 +75,6 @@
       <artifactId>validation-api</artifactId>
       <version>1.1.0.Final</version>
     </dependency>
-
     <dependency>
       <groupId>io.pivotal.spring.cloud</groupId>
       <artifactId>spring-cloud-services-starter-config-client</artifactId>
