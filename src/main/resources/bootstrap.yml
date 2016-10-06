@@ -5,3 +5,5 @@ cloud:
         instanceId: ${spring.application.name}
         preferIpAddress: true
       host: consul
+      config:
+        enabled: false
