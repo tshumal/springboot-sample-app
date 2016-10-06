@@ -4,4 +4,4 @@ cloud:
       discovery:
         instanceId: ${spring.application.name}
         preferIpAddress: true
-      host: http://consul-masspay-dev.bison
+      host: consul
