@@ -5,3 +5,4 @@ cloud:
         instanceId: ${spring.application.name}
         preferIpAddress: true
       host: consul
+      port: 8500
